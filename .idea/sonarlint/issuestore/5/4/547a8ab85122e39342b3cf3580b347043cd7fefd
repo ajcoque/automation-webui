@@ -1,0 +1,9 @@
+
+r
+java:S1450"WRemove the "password" field and declare it as a local variable in the relevant methods.(œãë­úÿÿÿÿ
+m
+java:S1450"WRemove the "username" field and declare it as a local variable in the relevant methods.(‘ó¹²
+B
+java:S1068",Remove this unused "username" private field.(‘ó¹²
+G
+java:S1068",Remove this unused "password" private field.(œãë­úÿÿÿÿ

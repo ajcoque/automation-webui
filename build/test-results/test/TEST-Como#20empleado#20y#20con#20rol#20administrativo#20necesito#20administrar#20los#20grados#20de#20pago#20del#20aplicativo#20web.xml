@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Como empleado y con rol administrativo necesito administrar los grados de pago del aplicativo web" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-23T17:03:13" hostname="DESKTOP-P44GADF" time="31.28">
+<testsuite name="Como empleado y con rol administrativo necesito administrar los grados de pago del aplicativo web" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-23T23:47:07" hostname="DESKTOP-P44GADF" time="31.724">
   <properties/>
-  <testcase name="Se permite añadir un grado de pago cuyo nombre NO existe y añadirle un tipo de moneda," classname="Como empleado y con rol administrativo necesito administrar los grados de pago del aplicativo web" time="31.28"/>
+  <testcase name="Se permite añadir un grado de pago cuyo nombre NO existe y añadirle un tipo de moneda," classname="Como empleado y con rol administrativo necesito administrar los grados de pago del aplicativo web" time="31.724"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[oct. 23, 2021 12:03:14 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[oct. 23, 2021 6:47:07 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 47587
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 17594
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-oct. 23, 2021 12:03:17 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+oct. 23, 2021 6:47:10 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

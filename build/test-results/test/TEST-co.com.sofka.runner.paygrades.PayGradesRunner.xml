@@ -4,12 +4,9 @@
   <system-out><![CDATA[
 1 Scenarios (?[32m1 passed?[0m)
 3 Steps (?[32m3 passed?[0m)
-0m31,613s
+0m32,184s
 
 
 ]]></system-out>
-  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

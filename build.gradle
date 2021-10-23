@@ -10,11 +10,9 @@ apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 apply plugin: 'org.sonarqube'
 
-
 tasks.withType(Test) {
-    systemProperties = System.properties
+    systemProperties = System.properties as Map<String, ?>
     maxParallelForks = Runtime.runtime.availableProcessors()
-    //maxParallelForks = 1
 }
 
 repositories {

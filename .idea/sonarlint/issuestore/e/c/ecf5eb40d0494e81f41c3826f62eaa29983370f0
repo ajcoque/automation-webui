@@ -1,0 +1,9 @@
+
+r
+java:S1450"\Remove the "maximumSalary" field and declare it as a local variable in the relevant methods.(גµמו
+~
+java:S1450"\Remove the "minimumSalary" field and declare it as a local variable in the relevant methods.(·ק³קשÿÿÿÿ8ד׃£יÊ/
+S
+java:S1068"1Remove this unused "minimumSalary" private field.(·ק³קשÿÿÿÿ8כ׃£יÊ/
+N
+java:S1068"1Remove this unused "maximumSalary" private field.(גµמו8כ׃£יÊ/
