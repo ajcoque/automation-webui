@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.Task;
 
 import static co.com.sofka.userinterfaces.paygrades.currency.Currency.*;
 
-public class FillCurrency implements Task{
+public class FillCurrency implements Task {
 
     private String nameCurrency;
     private String minSalary;
@@ -57,7 +57,7 @@ public class FillCurrency implements Task{
 
     }
 
-    public static FillCurrency fillCurrency(){
+    public static FillCurrency fillCurrency() {
         return new FillCurrency();
     }
 

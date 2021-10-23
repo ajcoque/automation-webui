@@ -5,8 +5,7 @@ import net.serenitybdd.screenplay.Question;
 
 import static co.com.sofka.userinterfaces.paygrades.PayGrades.VALIDATION_LINKTEXT_GRADE;
 
-
-public class PayGrades implements Question<Boolean>{
+public class PayGrades implements Question<Boolean> {
 
     private String name;
 
@@ -15,7 +14,7 @@ public class PayGrades implements Question<Boolean>{
         return this;
     }
 
-    public PayGrades is(){
+    public PayGrades is() {
         return this;
     }
 
@@ -24,7 +23,7 @@ public class PayGrades implements Question<Boolean>{
         return (VALIDATION_LINKTEXT_GRADE.resolveFor(actor).containsOnlyText(name));
     }
 
-    public static PayGrades payGrades(){
+    public static PayGrades payGrades() {
         return new PayGrades();
     }
 }

@@ -37,7 +37,7 @@ public class FillLogin implements Task {
 
     }
 
-    public static FillLogin fillLogin(){
+    public static FillLogin fillLogin() {
         return new FillLogin();
     }
 }

@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Task;
 
 import static co.com.sofka.userinterfaces.paygrades.PayGrades.*;
 
-public class FillPayGrade implements Task{
+public class FillPayGrade implements Task {
 
     private String name;
 
@@ -35,7 +35,7 @@ public class FillPayGrade implements Task{
 
     }
 
-    public static FillPayGrade fillPayGrade(){
+    public static FillPayGrade fillPayGrade() {
         return new FillPayGrade();
     }
 

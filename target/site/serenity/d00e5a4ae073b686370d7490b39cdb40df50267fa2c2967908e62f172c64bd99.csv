@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Como empleado y con rol administrativo necesito administrar los grados de pago del aplicativo web","Se permite añadir un grado de pago cuyo nombre NO existe y añadirle un tipo de moneda,","SUCCESS","2021-10-23T12:03:14.1621811-05:00[America/Bogota]","0.0","30.24"

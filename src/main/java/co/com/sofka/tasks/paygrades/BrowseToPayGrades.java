@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Task;
 
 import static co.com.sofka.userinterfaces.paygrades.PayGrades.*;
 
-public class BrowseToPayGrades implements Task{
+public class BrowseToPayGrades implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -25,7 +25,7 @@ public class BrowseToPayGrades implements Task{
         );
     }
 
-    public static BrowseToPayGrades browseToPayGrades(){
+    public static BrowseToPayGrades browseToPayGrades() {
         return new BrowseToPayGrades();
     }
 

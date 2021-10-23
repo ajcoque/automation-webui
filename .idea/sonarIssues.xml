@@ -8,6 +8,56 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Antiguos/automation-jsonplaceholder-rest/src/test/resources/features/jsonplaceholder/posts/posts.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/main/java/co/com/sofka/questions/ReturnValueString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/main/java/co/com/sofka/tasks/DoGET.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/main/java/co/com/sofka/tasks/model/PostModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/java/co/com/sofka/runner/PostsRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/java/co/com/sofka/stepdefinition/posts/PostsCucumberStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/java/co/com/sofka/stepdefinition/setup/Setup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../automation-restapi/src/test/resources/features/post.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -119,6 +169,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/co/com/sofka/userinterfaces/users/Users.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/log4j2.properties">
           <value>
             <set />
           </value>

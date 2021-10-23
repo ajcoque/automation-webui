@@ -3,7 +3,6 @@ package co.com.sofka.stepdefinition.users;
 import co.com.sofka.exceptions.ValidationTextDoNotMatch;
 import co.com.sofka.stepdefinition.setup.Setup;
 
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,8 +20,8 @@ import static co.com.sofka.tasks.landingpage.OpenLandingPage.openLandingPage;
 public class UsersCucumberStepDefinition extends Setup {
 
     private static final String ACTOR_NAME = "admin";
-    private  String username;
-    private  String password;
+    private String username;
+    private String password;
     private static final String MESSAGE_ERROR = "No se muestran los datos del usuario consultado";
 
     @Given("el administrador del sistema se encuentra en la pagina de users")
@@ -61,7 +60,7 @@ public class UsersCucumberStepDefinition extends Setup {
         );
     }
 
-    private void fillData(){
+    private void fillData() {
         theActorInTheSpotlight().attemptsTo(
                 fillLogin()
                         .usingUsername(username)

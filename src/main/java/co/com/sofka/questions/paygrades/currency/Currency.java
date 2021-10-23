@@ -1,6 +1,5 @@
 package co.com.sofka.questions.paygrades.currency;
 
-
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
@@ -27,7 +26,7 @@ public class Currency implements Question<Boolean> {
         return this;
     }
 
-    public Currency is(){
+    public Currency is() {
         return this;
     }
 
@@ -40,7 +39,7 @@ public class Currency implements Question<Boolean> {
         );
     }
 
-    public static Currency currency(){
+    public static Currency currency() {
         return new Currency();
     }
 

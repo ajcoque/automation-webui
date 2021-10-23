@@ -22,8 +22,8 @@ import static co.com.sofka.tasks.landingpage.OpenLandingPage.openLandingPage;
 public class LoginCucumberStepDefinition extends Setup {
 
     private static final String ACTOR_NAME = "admin";
-    private  String username;
-    private  String password;
+    private String username;
+    private String password;
     private static final String MESSAGE_ERROR = "El aplicativo no redirige a la pagina esperada";
     private static final String SPAN_MESSAGE_ERROR = "El aplicativo no da la retroalimentacion correcta";
     private static final String VALIDATION_INVALID_DATA = "Invalid credentials";
@@ -45,6 +45,7 @@ public class LoginCucumberStepDefinition extends Setup {
         password = "admin123";
         fillData();
     }
+
     @Then("el sistema debera rederigir a la pagina dashboard del aplicativo web")
     public void elSistemaDeberaRederigirALaPaginaDashboardDelAplicativoWeb() {
         theActorInTheSpotlight().should(
@@ -67,6 +68,7 @@ public class LoginCucumberStepDefinition extends Setup {
         password = "admin";
         fillData();
     }
+
     @Then("el sistema deberá mostrar un mensaje evidenciando que los datos ingresados son invalidos")
     public void elSistemaDeberaMostrarUnMensajeEvidenciandoQueLosDatosIngresadosSonInvalidos() {
         dataIncorrect(VALIDATION_INVALID_DATA);
@@ -78,6 +80,7 @@ public class LoginCucumberStepDefinition extends Setup {
         password = "admin123";
         fillData();
     }
+
     @Then("el sistema deberá mostrar un mensaje que indique que los datos ingresados son invalidos")
     public void elSistemaDeberaMostrarUnMensajeQueIndiqueQueLosDatosIngresadosSonInvalidos() {
         dataIncorrect(VALIDATION_INVALID_DATA);
@@ -90,12 +93,13 @@ public class LoginCucumberStepDefinition extends Setup {
         password = "";
         fillData();
     }
+
     @Then("el sistema deberá mostrar un mensaje evidenciando que los campos no deben estar vacios")
     public void elSistemaDeberaMostrarUnMensajeEvidenciandoQueLosCamposNoDebenEstarVacios() {
         dataIncorrect(VALIDATION_EMPTY_DATA);
     }
 
-    private void fillData(){
+    private void fillData() {
         theActorInTheSpotlight().attemptsTo(
                 fillLogin()
                         .usingUsername(username)
@@ -103,16 +107,16 @@ public class LoginCucumberStepDefinition extends Setup {
         );
     }
 
-    private void dataIncorrect(String message){
+    private void dataIncorrect(String message) {
         theActorInTheSpotlight().should(
                 seeThat(loginError()
                                 .wasFilledAndGet(message),
-                                equalTo(true)
+                        equalTo(true)
                 )
-                .orComplainWith(
-                        ValidationTextDoNotMatch.class,
-                        String.format(VALIDATION_DO_NOT_MATCH, SPAN_MESSAGE_ERROR)
-                )
+                        .orComplainWith(
+                                ValidationTextDoNotMatch.class,
+                                String.format(VALIDATION_DO_NOT_MATCH, SPAN_MESSAGE_ERROR)
+                        )
         );
     }
 

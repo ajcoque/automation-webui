@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Task;
 
 import static co.com.sofka.userinterfaces.users.Users.*;
 
-public class BrowseToUsers implements Task{
+public class BrowseToUsers implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -25,7 +25,7 @@ public class BrowseToUsers implements Task{
         );
     }
 
-    public static BrowseToUsers browseToUsers(){
+    public static BrowseToUsers browseToUsers() {
         return new BrowseToUsers();
     }
 }

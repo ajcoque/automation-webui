@@ -34,7 +34,6 @@ public class PayGrades extends PageObject {
             .located(id("menu_admin_viewPayGrades"));
 
 
-
     //For validations.
     public static final Target VALIDATION_LINKTEXT_GRADE = Target
             .the("Validation linkText Grade B")
@@ -43,7 +42,6 @@ public class PayGrades extends PageObject {
     public static final Target VALIDATION_LINKTEXT_TYPE_CURRENCY = Target
             .the("Validation linkText Colombian Peso")
             .located(linkText("Colombian Peso"));
-
 
 
 }

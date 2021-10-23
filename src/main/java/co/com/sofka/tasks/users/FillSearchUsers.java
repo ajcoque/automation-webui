@@ -30,7 +30,7 @@ public class FillSearchUsers implements Task {
 
     }
 
-    public static FillSearchUsers fillSearchUsers(){
+    public static FillSearchUsers fillSearchUsers() {
         return new FillSearchUsers();
     }
 }

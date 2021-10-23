@@ -3,40 +3,34 @@ package co.com.sofka.stepdefinition.paygrades;
 import co.com.sofka.exceptions.ValidationTextDoNotMatch;
 import co.com.sofka.stepdefinition.setup.Setup;
 
-
-import co.com.sofka.userinterfaces.paygrades.currency.Currency;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import static co.com.sofka.exceptions.ValidationTextDoNotMatch.VALIDATION_DO_NOT_MATCH;
-import static co.com.sofka.questions.login.Login.login;
-import static co.com.sofka.questions.login.LoginError.loginError;
 import static co.com.sofka.questions.paygrades.PayGrades.payGrades;
 import static co.com.sofka.questions.paygrades.currency.Currency.currency;
-import static co.com.sofka.questions.users.Users.users;
 import static co.com.sofka.tasks.login.FillLogin.fillLogin;
 import static co.com.sofka.tasks.paygrades.BrowseToPayGrades.browseToPayGrades;
 import static co.com.sofka.tasks.paygrades.FillPayGrade.fillPayGrade;
 import static co.com.sofka.tasks.paygrades.currency.FillCurrency.fillCurrency;
-import static co.com.sofka.tasks.users.BrowseToUsers.browseToUsers;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static co.com.sofka.tasks.landingpage.OpenLandingPage.openLandingPage;
 
 
-public class PayGradesCucumberStepDefinition extends Setup{
+public class PayGradesCucumberStepDefinition extends Setup {
 
     private static final String ACTOR_NAME = "admin";
 
-    private  String username;
-    private  String password;
+    private String username;
+    private String password;
 
-    private  String nameGrade;
-    private  String nameCurrency;
-    private  String minSalary;
-    private  String maxSalary;
+    private String nameGrade;
+    private String nameCurrency;
+    private String minSalary;
+    private String maxSalary;
 
     private static final String VALIDATION_EXCEPTION_MESSAGE = "El aplicativo no guarda los datos del grado de pago";
     private static final String VALIDATION_EXCEPTION_MESSAGE_CURRENCY = "El aplicativo no guarda los datos de la moneda";
@@ -106,7 +100,7 @@ public class PayGradesCucumberStepDefinition extends Setup{
         );
     }
 
-    private void fillData(){
+    private void fillData() {
         theActorInTheSpotlight().attemptsTo(
                 fillLogin()
                         .usingUsername(username)

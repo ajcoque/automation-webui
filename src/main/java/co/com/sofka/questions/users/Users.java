@@ -2,6 +2,7 @@ package co.com.sofka.questions.users;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+
 import static co.com.sofka.userinterfaces.users.Users.VALIDATION_USERNAME;
 
 public class Users implements Question<Boolean> {
@@ -13,7 +14,7 @@ public class Users implements Question<Boolean> {
         return this;
     }
 
-    public Users is(){
+    public Users is() {
         return this;
     }
 
@@ -22,7 +23,7 @@ public class Users implements Question<Boolean> {
         return (VALIDATION_USERNAME.resolveFor(actor).containsOnlyText(username));
     }
 
-    public static Users users(){
+    public static Users users() {
         return new Users();
     }
 }

@@ -28,6 +28,4 @@ public class Login extends PageObject {
             .the("spanMessage")
             .located(id("spanMessage"));
 
-
-
 }

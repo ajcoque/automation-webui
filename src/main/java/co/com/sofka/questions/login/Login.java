@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Question;
 import static co.com.sofka.userinterfaces.landingpage.LandingPage.DASHBOARD;
 import static co.com.sofka.userinterfaces.login.Login.VALIDATION_DASHBOARD;
 
-public class Login implements Question<Boolean>{
+public class Login implements Question<Boolean> {
 
     private String username;
     private String password;
@@ -22,7 +22,7 @@ public class Login implements Question<Boolean>{
     }
 
 
-    public Login is(){
+    public Login is() {
         return this;
     }
 
@@ -31,7 +31,7 @@ public class Login implements Question<Boolean>{
         return (VALIDATION_DASHBOARD.resolveFor(actor).containsOnlyText(DASHBOARD));
     }
 
-    public static Login login(){
+    public static Login login() {
         return new Login();
     }
 }
